@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: 0; 
+}
+
+    body{
+        font-family: Arial, sans-serif;
+        background-color: rgb(124, 109, 109);
+        color: black;
+
+        /*Garante que o body ocupa toda a altura da tela*/
+        min-height: 100vh;
+    }
+
+    header{
+        background-color:   rgb(99, 130, 53);
+        padding: 20px;
+        color: white;
+        text-align: center;
+    }
+
+    .logo{
+        /*Uso do flexbox para alinhar a logo e o titulo*/
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+
+        background-color: antiquewhite;
+        width: 50%;
+
+    }
